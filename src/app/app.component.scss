@@ -1,0 +1,31 @@
+.app-button__container {
+    margin: 10%;
+    display: grid;
+    width: 70%;
+    grid-template-areas:
+      "header"
+      "main";
+    grid-template-columns: 4fr;
+    grid-template-rows: 30% 70%;
+    background-color: #202020;
+    //   border:solid 3px #red;
+    // -moz-border-radius: 10px;
+    // -webkit-border-radius: 10px;
+    // border-radius: 10px;
+  }
+  
+  .app-header__wrapper {
+    width: 100%;
+    grid-template-areas: "header";
+  // padding-bottom: 20rem;
+    background-color: rgb(237, 107, 88);
+  }
+  
+  .app-button__step-list {
+    width: 100%;
+    grid-template-areas: "main";
+    background-color: rgb(255, 250, 241);
+    border: black;
+  }
+  
+  

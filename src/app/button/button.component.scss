@@ -1,0 +1,101 @@
+
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+
+  min-width: 0 ;
+  min-height: 0 ;
+}
+
+.app-button__step {
+  background-color: black;
+  position: relative;
+  padding-left: 11px;
+  align-self: center;
+}
+
+.app-button__steplist {
+  display: flex !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+}
+.Off {
+  height: 50px;
+  width: 50px;
+  padding-left: 50px;
+  border: green 20px;
+}
+
+.On,
+:checked {
+  height: 50px;
+  width: 50px;
+  padding-left: 50px;
+  background-color: green;
+}
+.app-button__kick {
+  width: 80px;
+  height: 50px;
+  padding-left: -50px;
+  text-align: center;
+  font-size: 2vw;
+  color: Black;
+  margin: 2em;
+}
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+input[type="button" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: normal;
+  text-align: center;
+  cursor: default;
+  color: -internal-light-dark(black, white);
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  box-sizing: border-box;
+  padding: 1px 6px;
+  border-width: 4px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+button {
+  all: unset;
+}
+
+.app-button__start {
+  background-color: #252730;
+  background-image: linear-gradient(0deg, #131419, #252730, #30333e);
+  color: #e6eaef;
+  padding: 10px;
+  margin: 2em;
+  cursor: pointer;
+
+  box-shadow: 0 2px 0 0 black, 0 1.31em 2em 0 rgb(255 255 255 / 0%) inset,
+    0 2px 1px 0 rgb(255 255 255 / 10%) inset, 0 2px 3px 1px rgb(0 0 0 / 40%),
+    0 0 12px 1px rgb(37 39 48 / 50%), 0 2px 1px -1px rgb(0 0 0 / 0%) inset;
+}
